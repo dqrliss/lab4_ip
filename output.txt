@@ -1,0 +1,47 @@
+number of recordbook: 5868795
+student's full name: ivanov petr arkadyevich
+number of sessions: 3
+
+number of session: 1
+number of exams: 5
+subject: differential and integral calculus, mark: 9
+subject: programming fundamentals and methodologies, mark: 9
+subject: discrete mathematics and mathematical logic, mark: 10
+subject: history of Belarusian statehood, mark: 9
+subject: fundamentals of higher algebra, mark: 9
+number of zachets: 5
+subject: differential and integral calculus, zachet: true
+subject: programming fundamentals and methodologies, zachet: true
+subject: analytic geometry, zachet: true
+subject: foreign language, zachet: true
+subject: physical education, zachet: true
+
+number of session: 2
+number of exams: 4
+subject: differential and integral calculus, mark: 10
+subject: linear algebra, mark: 10
+subject: discrete mathematics and mathematical logic, mark: 9
+subject: cross-platform application development, mark: 10
+number of zachets: 6
+subject: differential and integral calculus, zachet: true
+subject: linear algebra, zachet: true
+subject: belarusian language (professional vocabulary), zachet: true
+subject: foreign language, zachet: true
+subject: machine-oriented programming, zachet: true
+subject: physical education, zachet: true
+
+number of session: 3
+number of exams: 5
+subject: industrial programming, mark: 9
+subject: foreign language, mark: 10
+subject: operating systems, mark: 9
+subject: modern political economy, mark: 10
+subject: numerical and functional series, mark: 9
+number of zachets: 6
+subject: educational practice (computing), zachet: true
+subject: industrial programming, zachet: true
+subject: algorithms and data structures, zachet: true
+subject: differential equations, zachet: true
+subject: improper integrals, zachet: true
+subject: physical culture, zachet: true
+

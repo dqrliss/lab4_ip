@@ -1,0 +1,4 @@
+matan 4
+linal 7
+proga 6
+dmiml 6
