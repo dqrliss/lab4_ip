@@ -1,4 +1,129 @@
-matan 4
-linal 7
-proga 6
-dmiml 6
+5840697
+ivanov petr arkadyevich
+3
+1
+5
+differential and integral calculus 9
+programming fundamentals and methodologies 9
+discrete mathematics and mathematical logic 5
+history of Belarusian statehood 9
+fundamentals of higher algebra 8
+5
+differential and integral calculus true
+programming fundamentals and methodologies true
+analytic geometry false
+foreign language true
+physical education true
+2
+4
+differential and integral calculus 7
+linear algebra 10
+discrete mathematics and mathematical logic 9
+cross-platform application development 10
+6
+differential and integral calculus true
+linear algebra true
+belarusian language (professional vocabulary) true
+foreign language true
+machine-oriented programming true
+physical education true
+3
+5
+industrial programming 10
+foreign language 6
+operating systems 9
+modern political economy 10
+numerical and functional series 9
+6
+educational practice (computing) true
+industrial programming true
+algorithms and data structures true
+differential equations true
+improper integrals true
+physical culture true
+8678597
+petrov gennady alekseevich
+3
+1
+5
+differential and integral calculus 6
+programming fundamentals and methodologies 8
+discrete mathematics and mathematical logic 9
+history of Belarusian statehood 4
+fundamentals of higher algebra 6
+5
+differential and integral calculus true
+programming fundamentals and methodologies true
+analytic geometry true
+foreign language true
+physical education true
+2
+4
+differential and integral calculus 5
+linear algebra 5
+discrete mathematics and mathematical logic 6
+cross-platform application development 7
+6
+differential and integral calculus true
+linear algebra true
+belarusian language (professional vocabulary) true
+foreign language true
+machine-oriented programming true
+physical education true
+3
+5
+industrial programming 4
+foreign language 8
+operating systems 4
+modern political economy 7
+numerical and functional series 7
+6
+educational practice (computing) true
+industrial programming true
+algorithms and data structures true
+differential equations true
+improper integrals true
+physical culture true
+1458685
+listov glist anufrievich
+3
+1
+5
+differential and integral calculus 5
+programming fundamentals and methodologies 8
+discrete mathematics and mathematical logic 7
+history of Belarusian statehood 8
+fundamentals of higher algebra 4
+5
+differential and integral calculus true
+programming fundamentals and methodologies true
+analytic geometry true
+foreign language false
+physical education true
+2
+4
+differential and integral calculus 9
+linear algebra 5
+discrete mathematics and mathematical logic 7
+cross-platform application development 4
+6
+differential and integral calculus false
+linear algebra true
+belarusian language (professional vocabulary) true
+foreign language false
+machine-oriented programming true
+physical education true
+3
+5
+industrial programming 5
+foreign language 8
+operating systems 4
+modern political economy 10
+numerical and functional series 5
+6
+educational practice (computing) false
+industrial programming true
+algorithms and data structures true
+differential equations false
+improper integrals true
+physical culture true
