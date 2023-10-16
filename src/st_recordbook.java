@@ -2,7 +2,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.Comparator;
 
 public class st_recordbook implements Comparable<st_recordbook>{
     st_recordbook() {
@@ -13,6 +12,11 @@ public class st_recordbook implements Comparable<st_recordbook>{
     st_recordbook(int number_of_recordbook) {
         this.number_of_recordbook = number_of_recordbook;
         name_of_student = "";
+        number_of_sessions = 0;
+    }
+    st_recordbook(String name_of_student) {
+        number_of_recordbook = 0;
+        this.name_of_student = name_of_student;
         number_of_sessions = 0;
     }
     private int number_of_recordbook;
@@ -26,8 +30,8 @@ public class st_recordbook implements Comparable<st_recordbook>{
         return name_of_student;
     }
     public int compareTo(st_recordbook other) {
-        return (this.number_of_recordbook < other.number_of_recordbook) ? -1 : ((this.number_of_recordbook == other.number_of_recordbook) ? 0 : 1);
-        //return Integer.compare(this.number_of_recordbook, other.number_of_recordbook);
+        return Integer.compare(this.number_of_recordbook, other.number_of_recordbook);
+        //return (this.number_of_recordbook < other.number_of_recordbook) ? -1 : ((this.number_of_recordbook == other.number_of_recordbook) ? 0 : 1);
     }
     public boolean checking_for_excellent_student() {
         for (session i: sessions) if (!i.checking_for_excellent_student()) return false;
@@ -38,10 +42,15 @@ public class st_recordbook implements Comparable<st_recordbook>{
         System.out.println("\n");
     }
     public String toString() {
-        String str = "number of recordbook: " + number_of_recordbook + "\n" + "student's full name: " + name_of_student + "\n" + "number of sessions: " + number_of_sessions + "\n\n";
-        for (session i: sessions) str += i.toString();
-        return str;
+        StringBuilder str = new StringBuilder("number of recordbook: " + number_of_recordbook + "\n" + "student's full name: " + name_of_student + "\n" + "number of sessions: " + number_of_sessions + "\n\n");
+        for (session i: sessions) str.append(i.toString());
+        return str.toString();
     }
+//    public String toString() {
+//        String str = "number of recordbook: " + number_of_recordbook + "\n" + "student's full name: " + name_of_student + "\n" + "number of sessions: " + number_of_sessions + "\n\n";
+//        for (session i: sessions) str += i.toString();
+//        return str;
+//    }
     public void output(PrintWriter out) {
         out.print(this);
     }
@@ -74,12 +83,12 @@ public class st_recordbook implements Comparable<st_recordbook>{
             return av_mark / number_of_exams;
         }
         public String toString() {
-            String str = "number of session: " + number_of_session + "\n" + "number of exams: " + number_of_exams + "\n";
-            for (exam i: exams) str += i.toString() + "\n";
-            str += "number of zachets: " + number_of_zachets + "\n";
-            for (zachet i: zachets) str += i.toString() + "\n";
-            str += "\n";
-            return str;
+            StringBuilder str = new StringBuilder("number of session: " + number_of_session + "\n" + "number of exams: " + number_of_exams + "\n");
+            for (exam i: exams) str.append(i.toString()).append("\n");
+            str.append("number of zachets: ").append(number_of_zachets).append("\n");
+            for (zachet i: zachets) str.append(i.toString()).append("\n");
+            str.append("\n");
+            return str.toString();
         }
         public void input(Scanner in) throws IOException {
             number_of_session = Integer.parseInt(in.nextLine());

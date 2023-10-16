@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04bc3bf0-0dc3-41ed-92dc-bfae3003c5b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/comparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="04bc3bf0-0dc3-41ed-92dc-bfae3003c5b3" name="Changes" comment="added interface comparable for sorting classes">
+      <change afterPath="$PROJECT_DIR$/src/my_comp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comparator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/st_recordbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/st_recordbook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +25,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dqrliss"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="03b85e2f-d4e6-485f-b360-6ba31d755f97" />
+        <option name="url" value="https://github.com/dqrliss/lab4_ip.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -77,6 +91,15 @@
       <workItem from="1696846001114" duration="10115000" />
       <workItem from="1697406501925" duration="2811000" />
     </task>
+    <task id="LOCAL-00001" summary="added interface comparable for sorting classes">
+      <option name="closed" value="true" />
+      <created>1697411096424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697411096424</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added interface comparable for sorting classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added interface comparable for sorting classes" />
   </component>
 </project>
